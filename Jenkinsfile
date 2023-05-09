@@ -20,6 +20,7 @@ pipeline {
         stage('Release') {
             steps {
                 echo 'Releasing'
+                echo 'What a beautiful day to be alive'
             }
         }
     }
